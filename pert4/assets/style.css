@@ -1,0 +1,60 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+div.container{
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar{
+    height: 100vh;
+    width: 300px;
+    padding: 0;
+}
+
+.admin{
+    background-color: #707070;
+    position: relative;
+    padding: 30px 0;
+    margin: 0;
+}
+
+.sidebar a{
+    color: whitesmoke;
+    padding: 15px 0 15px 30px;
+}
+
+.sidebar a:hover{
+    color: white;
+    background-color: #242424;
+}
+
+.isian{
+    padding: 25px 10px;
+    margin: 0;
+    width: 100%;
+}
+
+.tabel{
+    overflow: auto;
+}
+
+/* Login Page */
+
+body.bg-gradient{
+    background-image: linear-gradient(to bottom left, darkblue, cyan);
+    height: 100vh;
+}
+
+.card-login{
+    width: 350px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-175px, -175px);
+    box-shadow: 2px 2px 10px rgba(0, 0, 139, 0.5);
+}
